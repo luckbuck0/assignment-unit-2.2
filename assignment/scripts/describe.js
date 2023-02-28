@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// The code has established 1 as a variable and then added 1 to it using the ++ code then using a if statement 
+// the code is checking if the variable number is greater or equal to 2 if it is then the code is going to log 'yes'
+// because the code is equal to 2 then the code is going to log 'yes'
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The code has established name as a variable and then made it equal to the name 'Dane' 
+// The code then ask using a if statement to check if the name variable equals 'Mary'
+// If it is the code prompts it to say 'Hi,Mary!' if it does not equal Mary the code says 
+// 'How do you do?' because the name variable doesn't equal mary the code will log 'How do you do?'
 
 //CODE
 /*
@@ -70,11 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// First the code sets a variable called secret and leaves it empty then it sets a 
+// variable called code and gives it a value of 123. It then uses a if statement to tell the 
+// code that if code is equal to 123 the variable secret is redefined as 'super' and the variable
+// code is now itself times 2. Lastly it sets another if statement that says that if the variable
+// code is greater then 250 the variable secret is now redifined as 'duper' because the variable code 
+// is equal to 123 the code is going to log 'super'
 //CODE
 /*
 let isStudent = true;
@@ -136,8 +137,10 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// this code is only turning the variable colorOne to purple colorTwo is still blue
+// to fix this they should use a && statement to add colorTwo to the code and make it purple
 }
-*/
+*/ 
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -149,6 +152,8 @@ const time = 4;
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
+// the || code is a or statement not a and so it is only checking if temp is 40
+// the user should switch to &&
 }
 */
 
@@ -162,6 +167,8 @@ const minAge = 21;
 
 if(minAge <= age) {
   console.log('no entry');
+  // this code is doing the opposite of what it's intended 
+  // switch the two console logs the one on the bottom should be on top and the one on top should be the else statement
 } else {
   console.log('enter');
 }
