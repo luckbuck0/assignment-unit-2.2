@@ -72,10 +72,10 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // First the code sets a variable called secret and leaves it empty then it sets a 
 // variable called code and gives it a value of 123. It then uses a if statement to tell the 
-// code that if code is equal to 123 the variable secret is redefined as 'super' and the variable
-// code is now itself times 2. Lastly it sets another if statement that says that if the variable
-// code is greater then 250 the variable secret is now redifined as 'duper' because the variable code 
-// is equal to 123 the code is going to log 'super'
+// code that if code is equal to 123 the variable secret has a value of 'super' lastly it
+// times the code variable by 2. It sets another if statement that says that if the variable
+// code is greater then 250 the variable secret is now valued as 'duper' because the variable code 
+// is equal to 246 the code is going to log 'super'
 //CODE
 /*
 let isStudent = true;
@@ -92,7 +92,17 @@ if (isStudent === true && zip > 80000 ) {
   console.log('How about the weather?')
 }
 
-*/
+// 4. 3 variables are defined isStudent with a boolean value of true
+      age with a number type of 34 and zip with a number type of 55407
+      An if state is then created to check if the variable isStudent is
+      equal to true and if the variable zip is greater then 8000. The code
+      says that if these two values are true the program should proceed to 
+      console log 'You're a student on the West Coast!' the code then gives us
+      three more alternatives one is if the isStudent boolean is equal to false 
+      or the number type variable age is greater then 30 to console log 'What 
+      are your hobbies?' two is if the boolean isStudent variable is true and 
+      nothing else to console log 'Welcome to Prime!' lastly if none of the 
+      parameters are met to just console log 'How about the weather?'
 
 
 
@@ -173,4 +183,6 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
+
+
 
